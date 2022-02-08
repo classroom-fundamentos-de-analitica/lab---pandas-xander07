@@ -95,7 +95,7 @@ def pregunta_06():
     ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 
     """
-    return sorted(tbl1['_c4'].unique().str.upper())
+    return sorted(tbl1['_c4'].str.upper().unique())
 
 
 def pregunta_07():
