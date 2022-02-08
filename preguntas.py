@@ -250,7 +250,7 @@ def pregunta_13():
     """
     m = pd.merge(
         tbl0,
-        tbl1,
+        tbl2,
         how="outer",
     )
     return m.groupby('_c1')['_c5b'].sum()
